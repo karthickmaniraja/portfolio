@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthick Mani Raja J | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background: #fdfcff; color: #1a202c; }
+    header, section { padding: 2rem; max-width: 960px; margin: auto; }
+    header { background: linear-gradient(135deg, #805AD5, #63B3ED); color: white; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: 600; }
+    .section-title { font-size: 1.5rem; margin-bottom: 1rem; border-left: 4px solid #3182CE; padding-left: 0.5rem; color: #2D3748; }
+    .grid { display: grid; gap: 1rem; }
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .card { background: linear-gradient(135deg, #ffffff, #f7fafc); padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .project-title { font-weight: bold; margin-bottom: 0.5rem; color: #2B6CB0; }
+    footer { text-align: center; padding: 1rem; background: #805AD5; color: white; }
+    @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+    ul li { margin-bottom: 0.5rem; }
+    a { color: #3182CE; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Karthick Mani Raja J</h1>
+    <p>Software Developer | IoT Enthusiast | Tech Explorer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>A motivated engineering student with a strong foundation in software development, IoT systems, and data-driven solutions. Passionate about solving real-world problems with technology and constantly exploring new innovations.</p>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="card">
+      <p><strong>BE Information Science and Engineering</strong><br>Kumaraguru College of Technology, Coimbatore (2021 – 2025)<br>CGPA: 7.1</p>
+      <p><strong>Class XII</strong><br>Shri Vidhya Giri MHSS (2020 – 2021)<br>Percentage: 86.5%</p>
+      <p><strong>Class X</strong><br>Don Bosco MHSS (2018 – 2019)<br>Percentage: 87%</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="grid grid-2">
+      <div class="card">Problem-solving</div>
+      <div class="card">C Programming</div>
+      <div class="card">Python</div>
+      <div class="card">MySQL</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">MS Excel</div>
+      <div class="card">Big Data</div>
+      <div class="card">Software Engineering</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="project-title">Intrusion Detection System</div>
+        <p>Designed a healthcare-specific IDS using web technologies and machine learning to ensure secure, real-time threat detection.</p>
+      </div>
+      <div class="card">
+        <div class="project-title">E-Voting Management System</div>
+        <p>Secure online voting platform using HTML, CSS, and PHP with real-time result display and user authentication.</p>
+      </div>
+      <div class="card">
+        <div class="project-title">IoT Based Attendance Monitoring System</div>
+        <p>RFID-powered real-time attendance system for educational institutions, improving accuracy and efficiency.</p>
+      </div>
+      <div class="card">
+        <div class="project-title">Hospital Management System</div>
+        <p>Developed a full-stack solution for managing appointments, patient records, and billing in healthcare facilities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <ul>
+      <li>AWS Academy Cloud Foundations - AWS Academy</li>
+      <li>Frontend Development - HTML & CSS - Coursera</li>
+      <li>Neural Networks and Deep Learning - Coursera</li>
+      <li>Intrusion Detection System - Coursera</li>
+      <li>Software Development Process & Methodology - Coursera</li>
+      <li>Generative AI: Foundation Models - Coursera</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:karthickmaniraja28@gmail.com">karthickmaniraja28@gmail.com</a></p>
+    <p>Phone: +91 86104 61572</p>
+    <p>Location: Ramanathapuram, India</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/karthick-mani-raja-091169270/" target="_blank">View Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Karthick Mani Raja J. All rights reserved.</p>
+  </footer>
+</body>
+</html>
